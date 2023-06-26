@@ -8,10 +8,11 @@
 /* <layout> */
 body {
   width: 1920px;
+  font-size: 18px;
+  color: #3a3a3a;
 }
 .container {             /* 본문의 너비 */
-  width: 1272px;  
-  box-sizing: border-box;     
+  width: 1272px;     
   margin: 0 auto;
 }
 .big-pd {                /* 섹션별 간격 4줄(27 * 4) */
@@ -34,19 +35,17 @@ body {
 
 /* typography */
 body {
-  font-family: 'Noto Sans KR', sans-serif; 
+  font-family: 'Noto Sans KR', sans-serif;    
 }
 .main-tt1 {                  /* before: .main_tt */
   font-size: 40px;
   font-weight: bold;
   letter-spacing: -0.03em;   /* 확인 필요 */
-  color: #3a3a3a;
 }
 .main-tt2 {                  /* before: .sub_tt */
   font-size: 26px;
   font-weight: bold;
   letter-spacing: -0.01em;   /* 확인 필요 */
-  color: #3a3a3a;
 }
 .con-tt1 {                   /* before: .sub_p */
   font-size: 22px;
@@ -81,7 +80,7 @@ body {
 .secondary { color: #f5a39d; }
 
 /* link & button */
-.allv-btn, .allv-btn-test {                 /* before: .all_btn */
+.allv-btn {                 /* before: .all_btn */
   font-size: 15px;
   font-weight: bold;
   color: #063d6c;
@@ -91,6 +90,8 @@ body {
   margin-right: 10px;
   box-shadow: 1px 1px 4px 0px rgba(0,0,0,.5);
 }
+.allv-btn i { margin-right: 6px; }       
+
 .hash {
   background: #fff;
   color: #3a3a3a;
